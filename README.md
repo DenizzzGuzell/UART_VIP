@@ -16,8 +16,8 @@ has_functional_coverage  : Agent has functional coverage
 
 has_scoreboard           : Agent has scoreboard
 
-Detailed description of SPI can be found in :
-[https://en.wikipedia.org/wiki/Serial_Peripheral_Interface](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
+Detailed description of UART can be found in :
+(https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 
 ## Transaction
 Here an example transaction between UART VIP and UART design :
