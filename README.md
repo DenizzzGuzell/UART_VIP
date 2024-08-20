@@ -32,9 +32,9 @@ Configuration of Transaction given above is :
 ## Test Names and Results
 Created test name for writing and reading at the same time is uart_rx_tx_test
 
-Created test name for writing only is spi_tx_test
+Created test name for writing only is uart_tx_test
 
-Created test name for reading only is spi_rx_test
+Created test name for reading only is uart_rx_test
 
 Created test name for reseting is uart_reset_test
 
