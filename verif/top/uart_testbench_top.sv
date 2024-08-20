@@ -4,7 +4,7 @@
 `define TX_DRV_IF  uart_if.TX_DRV.default_cb
 `define TX_MON_IF  uart_if.TX_MON.default_cb
 
-`timescale 1ps/1fs
+`timescale 1ns/1ns
 //////////////////////////////////////////////
 // Engineer: Deniz Guzel
 // Create Date: 17/10/2023 09:00:00 AM

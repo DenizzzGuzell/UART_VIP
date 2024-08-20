@@ -54,6 +54,6 @@ dkms.conf
 sim/*
 
 !sim/cov_spec
-!sim/design_flist
-!sim/verif_flist
+!sim/design.flist
+!sim/verif.flist
 !sim/Coverage-results

@@ -1,0 +1,11 @@
+../verif/interface/uart_interface.sv
+../verif/agents/rx_agent/uart_agent_pkg_rx.sv
+../verif/agents/tx_agent/uart_agent_pkg_tx.sv
+../verif/agents/rx_agent/uart_driver_BFM_rx.sv
+../verif/agents/tx_agent/uart_driver_BFM_tx.sv
+../verif/agents/rx_agent/uart_monitor_BFM_rx.sv
+../verif/agents/tx_agent/uart_monitor_BFM_tx.sv
+../verif/sequences/uart_seq_lib_pkg.sv
+../verif/environment/uart_environment_pkg.sv
+../verif/test/uart_test_lib_pkg.sv
+../verif/top/uart_testbench_top.sv

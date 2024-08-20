@@ -1,0 +1,28 @@
+---
+# Note: The contents of this file are automatically generated.
+# Any changes made by hand may be overwritten.
+version: '0.2'
+work_dir: ./sim
+design_root_dir: ./design
+simulations:
+  - name: sim
+    options: >-
+      -top verif.uart_tb_top -uvm 1.2  -L design -L verif  +acc+rwb -waves
+      waves.vcd  +UVM_TESTNAME=uart_rx_tx_test +UVM_NO_RELNOTES -sv_seed random
+      +UVM_VERBOSITY=UVM_HIGH
+source_files:
+  - language: verilog
+    path: ./design.flist
+    library_name: design
+    options: +incdir+../rtl/src +acc+rwb
+    file_list: relative-to-file
+  - language: verilog
+    path: ./verif.flist
+    library_name: verif
+    options: >-
+      -uvm 1.2 +acc+rwb
+      +incdir+../utils+../verif/agents/rx_agent+../verif/agents/tx_agent+../verif/environment+../verif/sequences+../verif/test+../verif/top+../verif/interface
+      -timescale 1ns/1ns
+    file_list: relative-to-file
+library_search_paths:
+  - $STD_LIBS\ieee93

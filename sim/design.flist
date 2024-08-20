@@ -1,0 +1,5 @@
+../design/UartStates.vh
+../design/BaudRateGenerator.v
+../design/Uart8Receiver.v
+../design/Uart8Transmitter.v
+../design/Uart8.v
